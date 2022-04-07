@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using API.Entities;
+using API;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,7 +15,5 @@ namespace API.Data
         }
 
         public DbSet<AppUser> Users { get; set; }
-        public DbSet<UserCard> Cards { get; set; }
-
     }
 }

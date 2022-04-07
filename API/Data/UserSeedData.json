@@ -1,0 +1,222 @@
+[
+    {
+        "UserName": "Tami",
+        "Gender": "female",
+        "DateOfBirth": "1995-09-28",
+        "Created": "2020-05-01",
+        "LastActive": "2020-05-29",
+        "City": "Haring",
+        "Country": "San Marino",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/women/94.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "123123543",
+                "Status": "notActive",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Roseann",
+        "Gender": "female",
+        "DateOfBirth": "1976-02-29",
+        "Created": "2020-03-20",
+        "LastActive": "2020-05-17",
+        "City": "Sunnyside",
+        "Country": "China",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/women/86.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "123123543",
+                "Status": "notActive",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Ila",
+        "Gender": "female",
+        "DateOfBirth": "1981-08-12",
+        "Created": "2020-05-27",
+        "LastActive": "2020-05-09",
+        "City": "Woodruff",
+        "Country": "Egypt",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/women/72.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "123123543",
+                "Status": "notActive",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Sandy",
+        "Gender": "female",
+        "DateOfBirth": "1987-11-19",
+        "Created": "2020-05-25",
+        "LastActive": "2020-06-05",
+        "City": "Norwood",
+        "Country": "Seychelles",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/women/70.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "123123543",
+                "Status": "notActive",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Angie",
+        "Gender": "female",
+        "DateOfBirth": "1954-02-04",
+        "Created": "2020-02-26",
+        "LastActive": "2020-05-23",
+        "City": "Siglerville",
+        "Country": "French Polynesia",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/women/3.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "123123543",
+                "Status": "notActive",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Perry",
+        "Gender": "male",
+        "DateOfBirth": "1989-05-06",
+        "Created": "2020-06-12",
+        "LastActive": "2020-06-11",
+        "City": "Delwood",
+        "Country": "Czech Republic",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/men/23.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "99900",
+                "Status": "Active",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Moss",
+        "Gender": "male",
+        "DateOfBirth": "1959-02-24",
+        "Created": "2020-12-22",
+        "LastActive": "2020-06-13",
+        "City": "Fairview",
+        "Country": "Mauritius",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/men/57.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "99900",
+                "Status": "Active",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Ramos",
+        "Gender": "male",
+        "DateOfBirth": "1987-06-11",
+        "Created": "2020-09-17",
+        "LastActive": "2020-06-13",
+        "City": "Harviell",
+        "Country": "Brazil",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/men/62.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "99900",
+                "Status": "Active",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Jackson",
+        "Gender": "male",
+        "DateOfBirth": "1995-08-06",
+        "Created": "2020-02-27",
+        "LastActive": "2020-05-16",
+        "City": "Smock",
+        "Country": "Rwanda",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/men/67.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "99900",
+                "Status": "Active",
+                "Type": "default"
+            }
+        ]
+    },
+    {
+        "UserName": "Collins",
+        "Gender": "male",
+        "DateOfBirth": "1958-12-01",
+        "Created": "2020-05-21",
+        "LastActive": "2020-05-18",
+        "City": "Olney",
+        "Country": "Virgin Islands (US)",
+        "Photos": [
+            {
+                "Url": "https://randomuser.me/api/portraits/men/58.jpg",
+                "IsMain": true
+            }
+        ],
+        "Cards": [
+            {
+                "Code": "99900",
+                "Status": "Active",
+                "Type": "default"
+            }
+        ]
+    }
+]

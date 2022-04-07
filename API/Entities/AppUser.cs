@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using API;
+using API.Extensions;
 
 namespace Entities
 {
@@ -16,5 +18,23 @@ namespace Entities
         public byte[] PasswordHash { get; set; }
 
         public byte[] PasswordSalt { get; set; }
+
+        public DateTime DateOfBirth { get; set; }
+
+        public DateTime Created { get; set; }=DateTime.Now;
+
+        public DateTime LastActive { get; set; }=DateTime.Now;
+
+        public string Gender { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
+
+        public ICollection<Photo> Photos { get; set; }
+
+        public ICollection<UserCard> Cards { get; set; }
+
+        /*public int GetAge(){
+            return DateOfBirth.CalculateAge();
+        }*/
     }
 }
