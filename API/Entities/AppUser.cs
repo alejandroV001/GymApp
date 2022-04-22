@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using API;
+using API.Entities;
 using API.Extensions;
 
 namespace Entities
@@ -33,8 +34,7 @@ namespace Entities
 
         public ICollection<UserCard> Cards { get; set; }
 
-        /*public int GetAge(){
-            return DateOfBirth.CalculateAge();
-        }*/
+        public ICollection<UserLike> LikedByUsers { get; set; }
+        public ICollection<UserLike> LikedUsers { get; set; }
     }
 }
