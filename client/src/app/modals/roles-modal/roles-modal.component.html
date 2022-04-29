@@ -1,0 +1,22 @@
+    <div class="modal-header">
+        <h5 class="modal-title">Edit roles for {{user.username}}</h5>
+        <button type="button"  class="btn-close" (click)="bsModalRef.hide()" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form #rolesForm="ngForm" id="rolesForm">
+            <div class="form-check" *ngFor="let role of roles">
+                <input type="checkbox" 
+                    class="form-check-input"
+                    [checked]="role.checked"
+                    value="role.name"
+                    (change)="role.checked = !role.checked"
+                    [disabled]="role.name === 'Admin' && user.username === 'admin'"
+                >
+                <label>{{role.name}}</label>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" (click)="bsModalRef.hide()" class="btn btn-default" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-success" (click)="updateRoles()">Submit</button>
+      </div>
