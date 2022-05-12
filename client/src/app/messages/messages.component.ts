@@ -41,7 +41,6 @@ export class MessagesComponent implements OnInit {
 
       }
     })
-    
   }
 
   pageChanged(event: any){
@@ -50,5 +49,4 @@ export class MessagesComponent implements OnInit {
       this.loadMessages();
     }
   }
-
 }
